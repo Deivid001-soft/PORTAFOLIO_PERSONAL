@@ -1,0 +1,170 @@
+/*estilos botones*/
+
+/*acciones en la barra de navegacion*/
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/*boton desacrgar cv*/
+.download-cv-btn {
+    background: transparent;
+    border: 2px solid var(--text-lightgray);
+    color: var(--text-lightgray);
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.download-cv-btn:hover {
+    border-color: var(--primary-blue);
+    color: var(--primary-blue);
+}
+
+/*boton about(acerca de mi)*/
+.about-btn {
+    background: var(--primary-blue);
+    color: var(--white);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.about-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(4, 55, 224, 0.3);
+}
+
+/*redes sociales*/
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--light-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-lightgray);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.social-link:hover {
+    background: var(--primary-blue);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+/*botones portafolio codigo-demo proyectos btn-1*/
+.btn-1 {
+  background: #f5f3f3;
+  border: 1px solid #111111;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 12px;
+  min-height: 40px;
+  outline: 0;
+  padding: 10px 12px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.btn-1:hover,
+.btn-1:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #f7f7fc;
+}
+
+.btn-1:active {
+  opacity: .5;
+}
+
+/*botones portafolio codigo-demo proyectos btn-2*/
+.btn-2 {
+  background: #070707;
+  border: 1px solid #111111;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #f8f5f5;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 12px;
+  min-height: 40px;
+  outline: 0;
+  padding: 10px 12px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.btn-2:hover,
+.btn-2:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #080808;
+}
+
+.btn-2:active {
+  opacity: .5;
+}
+
+/*boton enviar formulario*/
+.submit-btn {
+    background: var(--primary-blue);
+    color: var(--white);
+    border: none;
+    padding: 15px 40px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: var(--transition);
+    width: 100%;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(53, 117, 255, 0.3);
+}
+
+/*responsive*/
+@media (max-width: 480px) {
+    .download-cv-btn {
+    padding: 2px 4px;
+    }
+}

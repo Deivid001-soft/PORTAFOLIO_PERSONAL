@@ -1,0 +1,9 @@
+/* main.css */
+@import url("base/reset.css");
+@import url("base/tipografy.css");
+
+@import url("componentes/buttons.css");
+@import url("componentes/card.css");
+
+@import url("pages/styles.css");
+/*@import url("pages/portafolio-acad.css");*/

@@ -1,0 +1,139 @@
+/* Typography */
+.logo-icon {
+    color: var(--primary-blue);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--primary-grey);
+}
+
+.nav-link { font-weight: 500; font-size: 16px; }
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--primary-blue);
+}
+
+.greeting {
+    font-size: 20px;
+    color: var(--primary-blue);
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.hero-title {
+    font-size: 64px;
+    font-weight: 800;
+    color: var(--primary-grey);
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: var(--text-lightgray);
+    line-height: 1.4;
+}
+
+.hero-description {
+    font-size: 16px;
+    color: var(--text-lightgray);
+    margin-bottom: 40px;
+    line-height: 1.6;
+    max-width: 450px;
+}
+
+.portfolio-placeholder {
+    color: var(--text-lightgray);
+}
+
+.portfolio-placeholder span {
+    font-weight: 600;
+}
+
+.portfolio-info h3 a {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-grey);
+    text-decoration: none;
+}
+
+.portfolio-info h3 a:hover {
+    color: var(--primary-blue);
+}
+
+.portfolio-info p {
+    color: var(--text-lightgray);
+    font-size: 14px;
+}
+
+/*etiquetas de proyectos*/
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tag {background: var(--primary-cianblue);
+    color: var(--light-black);
+    padding: 0rem 0.45rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.creative-text {
+    color: var(--primary-green);
+    font-weight: 600;
+}
+
+.location-text {
+    color: var(--primary-cianblue);
+    font-weight: 600;
+}
+
+.skill-name {
+    font-weight: 600;
+    color: var(--primary-grey);
+}
+
+.section-header h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--primary-grey);
+    margin-bottom: 15px;
+}
+
+.section-header p {
+    font-size: 18px;
+    color: var(--text-lightgray);
+}
+
+.about-text p {
+    font-size: 16px;
+    color: var(--text-lightgray);
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.contact-item h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-grey);
+    margin-bottom: 5px;
+}
+
+.contact-item p {
+    color: var(--text-lightgray);
+    font-size: 16px;
+}
+
+.contact-item i {
+    font-size: 24px;
+}

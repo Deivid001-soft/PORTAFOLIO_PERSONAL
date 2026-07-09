@@ -1,0 +1,198 @@
+/*Estilos para index.php*/
+.b2{
+    background-image: url("../../../Portfolio-Academico/Deivid Cuayal-ADSO/a1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.borde-titulo {
+  -webkit-text-stroke-width: 0.5px; /* Grosor del borde */
+  -webkit-text-stroke-color: white; /* Color del borde */
+  font-size: 4.4rem;
+  color: green; /* Color de la letra principal */
+}
+.borde-subtitulo {
+  -webkit-text-stroke-width: 0.5px; /* Grosor del borde */
+  -webkit-text-stroke-color: black; /* Color del borde */
+  font-size: 35px;
+  color: white; /* Color de la letra principal */
+}
+.borde-descrip {
+  -webkit-text-stroke-width: 0.2px; /* Grosor del borde */
+  -webkit-text-stroke-color: white; /* Color del borde */
+  font-size: 2.4rem;
+  color: green; /* Color de la letra principal */
+}
+.borde-ejerc {
+  -webkit-text-stroke-width: 0.2px; /* Grosor del borde */
+  -webkit-text-stroke-color: white; /* Color del borde */
+  font-size: 2.4rem;
+  color: green; /* Color de la letra principal */
+}
+
+ .table-style {
+    border-collapse: collapse; /* Para una mejor apariencia */
+    border-color: green;
+    font-size: 1.6rem;
+  }
+  th, td {
+    border: 2px solid green;
+    padding: 8px;
+  }
+  .enlace{
+  color: blue; /* Color predeterminado del enlace */
+  text-decoration: none; /* Opcional: elimina el subrayado */
+}
+
+.enlace:hover {
+  color: red; /* Cambia el color cuando el ratón pasa sobre el enlace */
+}
+
+.enlace:visited {
+  color: black; /* Cambia el color de los enlaces que ya han sido visitados */
+}
+/* estilos para button index.php*/
+.button-49 {
+  padding: 0.6em 3em;
+  border: none;
+  outline: none;
+  color: rgb(20, 20, 20);
+  background: #4c504a;
+  cursor: pointer;
+  position: relative;
+  left: 40px;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-49:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-49:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #468609;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+/*estilos de button info*/
+.inf {
+  background-color: #99c;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 0;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.inf:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .inf {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+
+ .table-style {
+    border-collapse: collapse; /* Para una mejor apariencia */
+    border-color: green;
+    font-size: 1.4rem;
+  }
+  th, td {
+    border: 2px solid green;
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+.borde-titulo {
+  -webkit-text-stroke-width: 0.5px; /* Grosor del borde */
+  -webkit-text-stroke-color: white; /* Color del borde */
+  font-size: 3.4rem;
+  color: green; /* Color de la letra principal */
+}
+.borde-subtitulo {
+  -webkit-text-stroke-width: 0.5px; /* Grosor del borde */
+  -webkit-text-stroke-color: black; /* Color del borde */
+  font-size: 2.0rem;
+  color: white; /* Color de la letra principal */
+}
+.borde-descrip {
+  -webkit-text-stroke-width: 0.2px; /* Grosor del borde */
+  -webkit-text-stroke-color: white; /* Color del borde */
+  font-size: 2.2rem;
+  color: green; /* Color de la letra principal */
+}
+.borde-ejerc {
+  -webkit-text-stroke-width: 0.2px; /* Grosor del borde */
+  -webkit-text-stroke-color: white; /* Color del borde */
+  font-size: 2.4rem;
+  color: green; /* Color de la letra principal */
+}
+  }
